@@ -11,33 +11,33 @@ const ID = document.querySelector('.prt-weapon-image > .img-weapon').getAttribut
 const NAME = document.querySelector(".prt-weapon-info > div:first-child").textContent;
 
 const RARITY = (() => {
-  if (document.querySelector(".prt-rarity-4")) return "ssr";
-  if (document.querySelector(".prt-rarity-3")) return "sr";
-  if (document.querySelector(".prt-rarity-2")) return "r";
+  if (document.querySelector(".prt-rarity-4")) return "SSR";
+  if (document.querySelector(".prt-rarity-3")) return "SR";
+  if (document.querySelector(".prt-rarity-2")) return "R";
   return "?";
 })();
 
 const ELEMENT = (() => {
-  if (document.querySelector(".ico-type1")) return "fire";
-  if (document.querySelector(".ico-type2")) return "water";
-  if (document.querySelector(".ico-type3")) return "earth";
-  if (document.querySelector(".ico-type4")) return "wind";
-  if (document.querySelector(".ico-type5")) return "light";
-  if (document.querySelector(".ico-type6")) return "dark";
+  if (document.querySelector(".ico-type1")) return "Fire";
+  if (document.querySelector(".ico-type2")) return "Water";
+  if (document.querySelector(".ico-type3")) return "Earth";
+  if (document.querySelector(".ico-type4")) return "Wind";
+  if (document.querySelector(".ico-type5")) return "Light";
+  if (document.querySelector(".ico-type6")) return "Dark";
   return "?";
 })();
 
 const TYPE = (() => {
-  if (document.querySelector(".ico-weapon-1")) return "sabre";
-  if (document.querySelector(".ico-weapon-2")) return "dagger";
-  if (document.querySelector(".ico-weapon-3")) return "spear";
-  if (document.querySelector(".ico-weapon-4")) return "axe";
-  if (document.querySelector(".ico-weapon-5")) return "staff";
-  if (document.querySelector(".ico-weapon-6")) return "gun";
-  if (document.querySelector(".ico-weapon-7")) return "melee";
-  if (document.querySelector(".ico-weapon-8")) return "bow";
-  if (document.querySelector(".ico-weapon-9")) return "harp";
-  if (document.querySelector(".ico-weapon-0")) return "katana";
+  if (document.querySelector(".ico-weapon-1")) return "Sabre";
+  if (document.querySelector(".ico-weapon-2")) return "Dagger";
+  if (document.querySelector(".ico-weapon-3")) return "Spear";
+  if (document.querySelector(".ico-weapon-4")) return "Axe";
+  if (document.querySelector(".ico-weapon-5")) return "Staff";
+  if (document.querySelector(".ico-weapon-6")) return "Gun";
+  if (document.querySelector(".ico-weapon-7")) return "Melee";
+  if (document.querySelector(".ico-weapon-8")) return "Bow";
+  if (document.querySelector(".ico-weapon-9")) return "Harp";
+  if (document.querySelector(".ico-weapon-0")) return "Katana";
   return "?";
 })();
 
